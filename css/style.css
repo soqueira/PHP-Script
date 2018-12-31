@@ -1,0 +1,38 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #d6d6d6;
+}
+img{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+form{
+  position: absolute;
+  top: 65%;
+}
+.warning{
+  background: #f44242;
+  position: absolute;
+  bottom: 145px;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.link{
+  position: absolute;
+  bottom: 120px;
+  color: #4286f4;
+  text-decoration: none;
+  text-transform: uppercase;
+}
